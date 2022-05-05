@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Galdeano&display=swap" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="main">
+        <h1 id="title">Dr BR Ambedkar</h1>
+        <p>A Great Legend</p>
+        <figure id="img-div">
+            <img id="image" src="images/1.webp" alt="">
+            <figcaption id="img-caption">
+                BHARAT RATNA.
+            </figcaption>
+        </figure>
+        <br>
+        <section id="tribute-info">
+            <h2>Short Bio</h2>
+            
+                “Freedom of mind is the real freedom.
+                A person whose mind is not free though he may not be in chains, is a slave, not a free man.
+                One whose mind is not free, though he may not be in prison, is a prisoner and not a free man.
+                One whose mind is not free though alive, is no better than dead.
+
+                <span>Freedom of mind is the proof of one's existence.”</span>
+            </blockquote>
+            <p>
+                <strong>Dr. Bhim Rao Ambedkar</strong> a fighter in the cause of Annihilation of Caste, was born in a
+                low-caste Mahar family on 14th April, 1891, at Mhow cantonment,
+                where his father served in the Army. Dr B R Ambedkar was born in a caste which was considered as the
+                lowest of the low.
+                <br><br>
+                Born of a Dalit Mahar family of western India, he was as a boy humiliated by his high-caste
+                schoolfellows.
+                His father was an officer in the Indian army. Awarded a scholarship by the Gaekwar (ruler) of Baroda
+                (now Vadodara),
+                he studied at universities in the United States, Britain, and Germany. He entered the Baroda Public
+                Service at the Gaekwar’s request,
+                but, again ill-treated by his high-caste colleagues, he turned to legal practice and to teaching. He
+                soon established his leadership among Dalits, founded several journals on their behalf,
+                and succeeded in obtaining special representation for them in the legislative councils of the
+                government.
+                <br><br>
+                Contesting Mahatma Gandhi’s claim to speak for Dalits (or Harijans, as Gandhi called them),
+                he wrote What Congress and Gandhi Have Done to the Untouchables (1945).
+                In 1947 Ambedkar became the law minister of the government of India. He took a leading part in the
+                framing of the Indian constitution, outlawing discrimination against untouchables, and skillfully helped
+                to steer it through the assembly.
+                He resigned in 1951, disappointed at his lack of influence in the government. In October 1956, in
+                despair because of the perpetuation of untouchability in Hindu doctrine,
+                he renounced Hinduism and became a Buddhist, together with about 200,000 fellow Dalits, at a ceremony in
+                Nagpur. Ambedkar’s book The Buddha and His Dhamma appeared posthumously in 1957,
+                and it was republished as The Buddha and His Dhamma: A Critical Edition in 2011, edited, introduced, and
+                annotated by Aakash Singh Rathore and Ajay Verma.
+            </p>
+
+            <blockquote>
+                <h3>“Humans are mortal. So are ideas. An idea needs propagation as much as a plant needs watering.
+                    Otherwise both will wither and die.”
+                </h3>
+            </blockquote>
+
+
+        </section>
+    </main>
+</body>
+
+</html>
+
+#img-div{
+    background-color: #f5f5f0;
+    border:10px solid #ebebe0;
+    margin-bottom: 10px;
+}
+img {
+    box-shadow: 5px 10px 8px #a3a375;
+    padding: 1%;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#img-caption{
+    margin:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+    color: #6b6b47;
+}
